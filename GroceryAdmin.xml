@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Grocery_Buy_Admin.Manage_User"/>
+      <class name="Grocery_Buy_Admin.Manage_Categories"/>
+      <class name="Grocery_Buy_Admin.Manage_SubCategories"></class>
+      <class name="Grocery_Buy_Admin.Manage_Brands"></class>
+      <class name="Grocery_Buy_Admin.Manage_Product"></class>
+      <class name="Grocery_Buy_Admin.Manage_Coupon"></class>
+      <class name="Grocery_Buy_Admin.Manage_Banner"></class>
+      <class name="Grocery_Buy_Admin.Manage_Order"></class>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
